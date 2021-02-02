@@ -1,0 +1,6 @@
+framework module Pods_CrashlyticsExampleSwift {
+  umbrella header "Pods-CrashlyticsExampleSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

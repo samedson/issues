@@ -1,0 +1,30 @@
+# CrashlyticsExample
+use_frameworks!
+platform :ios, '10.0'
+
+# source 'https://github.com/firebase/SpecsStaging.git'
+# source 'https://cdn.cocoapods.org/'
+# source 'sso://cpdc-internal/firebase'
+
+# pod 'FirebaseCore'
+# pod 'Firebase/Crashlytics'
+# pod 'FirebaseCore', :path => '/Users/samedson/firebase/firebase-ios-sdk-public'
+# pod 'FirebaseCoreDiagnostics', :path => '/Users/samedson/firebase/firebase-ios-sdk-public'
+# pod 'FirebaseCrashlytics', :git => 'https://github.com/firebase/firebase-ios-sdk', :commit => '752f0d6b15b3fafb3bbea3c54f789efec6da6154'
+
+# Using prod
+# pod 'GoogleDataTransport'
+# pod 'GoogleDataTransportCCTSupport'
+
+# pod 'GoogleDataTransport', :path => '/Users/samedson/firebase/firebase-ios-sdk-public'
+# pod 'GoogleDataTransportCCTSupport', :path => '/Users/samedson/firebase/firebase-ios-sdk-public'
+
+target 'CrashlyticsExample'  do
+end
+
+target 'CrashlyticsExampleSwift' do
+end
+
+
+pod 'Firebase/Crashlytics'
+# pod 'GoogleDataTransportCCTSupport', :path => '/Users/samedson/firebase/firebase-ios-sdk-public'
