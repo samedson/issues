@@ -7,11 +7,12 @@
 //
 
 import Foundation
-import Vision
+import CoreImage
 
 class VisionTest: NSObject {
   @objc public func doStuff() {
-
+    let context = CIContext()
+    let context2 = CIContext()
 
 
 //    VNImageRequestHandler(cgImage: CGImage(, options: [])
